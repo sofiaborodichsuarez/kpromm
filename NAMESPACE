@@ -1,0 +1,8 @@
+# Namespace for kpromm 1.0.0
+
+S3method(print, kpromm)
+export(kpromm)
+export(screen_p)
+importFrom(clue,solve_LSAP)
+importFrom(stats,dist)
+importFrom(stats,median)

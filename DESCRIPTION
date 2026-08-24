@@ -1,0 +1,32 @@
+Package: kpromm
+Type: Package
+Title: Mixed Minkowski-Metric Clustering with Statistical Normalization (k-PROMM / k-PROMMSA)
+Version: 1.0.0
+Authors@R: person("Sofia", "Borodich Suarez", email = "sofia.borodich-suarez@neoma-bs.fr",
+    role = c("aut", "cre"))
+Description: Fits k-PROMM and k-PROMMSA, clustering algorithms for mixed
+    numerical/categorical data that combine a tunable Minkowski exponent p
+    with statistical normalization of feature vectors, as originally
+    developed in Suarez-Alvarez (2010, PhD thesis, Cardiff University) and
+    Suarez-Alvarez, Pham, Prostov & Prostov (2012, Proceedings of the Royal
+    Society A, 468(2145), 2630-2651). This package accompanies a manuscript
+    that provides practical guidance for choosing p, benchmarks the method
+    against established mixed-data clustering algorithms, and demonstrates
+    it on a real decision-support application. kpromm() fits the algorithm
+    at a single value of p (with normalization on by default, giving
+    k-PROMMSA; off, giving unnormalized k-PROMM). screen_p() runs a
+    labels-free ensemble screening procedure to narrow candidate values of p
+    when ground-truth cluster labels are not available; consistent with the
+    manuscript's honest evaluation of this procedure's limits, it does not
+    auto-select a single p.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.1
+Depends: R (>= 3.5)
+Imports: clue, stats
+Suggests:
+    mclust,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/sofiaborodichsuarez/kpromm
+BugReports: https://github.com/sofiaborodichsuarez/kpromm/issues
