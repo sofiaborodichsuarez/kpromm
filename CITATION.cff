@@ -1,15 +1,8 @@
 # CITATION.cff
 # Citation metadata for this repository. GitHub renders this as a "Cite this
 # repository" button, and Zenodo reads it automatically when the repository
-# is linked for archival, so most fields below (version, date-released) should
-# be updated at the same time a new GitHub release is tagged.
-#
-# NOTE: no DOI is set yet. Once this repository is archived on Zenodo and a
-# DOI is issued, add it here as:
-#   identifiers:
-#     - type: doi
-#       value: 10.5281/zenodo.XXXXXXX
-# Do not fabricate a DOI before Zenodo actually issues one.
+# is linked for archival. The version and release date should be updated when
+# a new GitHub release is tagged.
 
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
@@ -19,7 +12,10 @@ authors:
     given-names: "Sofia"
     affiliation: "NEOMA Business School"
 version: 1.0.0
-date-released: "2026-08-24"  
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22084227
+date-released: "2026-08-24"
 license: MIT
 repository-code: "https://github.com/sofiaborodichsuarez/kpromm"
 abstract: >

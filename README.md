@@ -1,4 +1,5 @@
 # kpromm
+[![DOI](https://zenodo.org/badge/1345135977.svg)](https://doi.org/10.5281/zenodo.22084226)
 
 An R package implementing **k-PROMM** and **k-PROMMSA**: clustering
 algorithms for mixed numerical/categorical data that combine a tunable
@@ -92,6 +93,14 @@ package passes `R CMD check` with 0 errors, 0 warnings, and 0 notes.
 No CRAN submission has been made or is implied. This repository provides
 the open-source implementation and reproduction materials accompanying
 the manuscript.
+
+## Citation
+
+Version 1.0.0 is permanently archived on Zenodo.
+
+DOI: [10.5281/zenodo.22084227](https://doi.org/10.5281/zenodo.22084227)
+
+See `CITATION.cff` for citation metadata.
 
 ## License
 
