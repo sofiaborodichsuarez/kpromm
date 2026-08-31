@@ -5,10 +5,10 @@ An R package implementing **k-PROMM** and **k-PROMMSA**: clustering
 algorithms for mixed numerical/categorical data that combine a tunable
 Minkowski exponent *p* with statistical normalization of feature vectors.
 
-This package accompanies the manuscript *"Making Mixed-Type Clustering
-Decision-Ready: k-PROMMSA, Software, and Practical Guidance"*
-(Sofia Borodich Suarez, NEOMA Business School). It exports the two main 
-functions documented in the manuscript:
+This package accompanies the manuscript *"Robust Mixed-Type Clustering for
+Operational Applications: k-PROMMSA, Parameter Choice and Practical
+Guidance"* (Sofia Borodich Suarez, NEOMA Business School). It implements
+exactly the two functions the manuscript's Software section documents:
 
 ```r
 kpromm(data, format, k, p, normalize_num = TRUE, normalize_cat = TRUE,
