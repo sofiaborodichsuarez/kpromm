@@ -22,5 +22,6 @@ abstract: >
   R implementation of k-PROMM and k-PROMMSA, clustering algorithms for
   mixed numerical/categorical data combining a tunable Minkowski exponent p
   with statistical normalization of feature vectors. Accompanies the
-  manuscript "Making Mixed-Type Clustering Decision-Ready: k-PROMMSA,
-  Software, and Practical Guidance" (Sofia Borodich Suarez).
+  manuscript "Robust Mixed-Type Clustering for Operational Applications:
+  k-PROMMSA, Parameter Choice and Practical Guidance" (Sofia Borodich Suarez,
+  submitted to the Journal of the Operational Research Society).
